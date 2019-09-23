@@ -1,3 +1,6 @@
 [submodule "command_line_tools/facets_1.5.6"]
 	path = command_line_tools/facets_1.5.6
 	url = https://github.com/mskcc-cwl/facets_1.5.6
+[submodule "command_line_tools/htstools_0.1.1"]
+	path = command_line_tools/htstools_0.1.1
+	url = https://github.com/mskcc-cwl/htstools_0.1.1
