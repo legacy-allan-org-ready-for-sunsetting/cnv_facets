@@ -119,6 +119,7 @@ steps:
   do_facets:
     run: ./command_line_tools/facets_1.5.6/facets.doFacets-1.5.6.cwl
     in:
+      params: params
       counts_file: do_snp_pileup/output_file
       TAG: facets_output_prefix
       tumor_id: tumor_id
