@@ -125,8 +125,6 @@ steps:
       tumor_id: tumor_id
       genome: 
           valueFrom: $(inputs.params.genome)
-      directory: 
-          valueFrom: $(inputs.params.directory)
       cval: 
           valueFrom: $(inputs.params.cval)
       snp_nbhd: 
