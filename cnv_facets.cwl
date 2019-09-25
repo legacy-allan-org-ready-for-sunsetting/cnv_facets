@@ -123,8 +123,6 @@ steps:
       counts_file: do_snp_pileup/output_file
       TAG: facets_output_prefix
       tumor_id: tumor_id
-      genome: 
-          valueFrom: $(inputs.params.genome)
       cval: 
           valueFrom: $(inputs.params.cval)
       snp_nbhd: 
