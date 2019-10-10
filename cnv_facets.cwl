@@ -57,6 +57,7 @@ inputs:
         single_chrom: string
         ggplot2: string
         seed: int
+        dipLogR: float?
 
 outputs:
 
@@ -151,4 +152,6 @@ steps:
           valueFrom: $(inputs.params.ggplot2)
       seed: 
           valueFrom: $(inputs.params.seed)
+      dipLogR:
+          valueFrom: $(inputs.params.dipLogR)
     out: [ png_files, txt_files_purity, txt_files_hisens, out_files, rdata_files, seg_files ]
